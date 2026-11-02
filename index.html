@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Китбуль / Kitbull — анимационная короткометражка</title>
+  <meta name="description" content="Китбуль (Kitbull) — короткометражный анимационный фильм Pixar SparkShorts о дружбе котёнка и питбуля.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============== HERO ============== -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Pixar · SparkShorts · 9 минут · без диалогов</p>
+    <h1 class="hero-title">Китбуль<span class="hero-title-en">/ Kitbull</span></h1>
+    <p class="hero-sub">«Иногда дом — это не место. Это тот, кто рядом».</p>
+    <p class="hero-laurel">🏆 Номинация на «Оскар» — лучший анимационный короткометражный фильм, 2020</p>
+    <div class="hero-buttons">
+      <a href="#video" class="btn btn-primary">Смотреть фильм</a>
+      <a href="#about" class="btn btn-ghost">О создании</a>
+      <a href="#press" class="btn btn-ghost">Пресс-кит</a>
+    </div>
+    <p class="hero-note">18+ · тема жестокого обращения с животными</p>
+  </div>
+  <div class="hero-sketch">
+    <!-- Пасхалка: крышка от бутылки -->
+    <button class="bottle-cap" id="bottleCap" title="Что это?..">◦</button>
+    <svg viewBox="0 0 200 200" class="sketch-svg">
+      <path d="M60 90 Q55 50 75 65 Q85 50 100 50 Q115 50 125 65 Q145 50 140 90 Q150 110 140 140 Q125 170 100 170 Q75 170 60 140 Q50 110 60 90 Z" fill="none" stroke="#2E2E2E" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="85" cy="100" r="3" fill="#2E2E2E"/>
+      <circle cx="115" cy="100" r="3" fill="#2E2E2E"/>
+      <path d="M100 118 Q96 124 100 127 Q104 124 100 118" fill="none" stroke="#2E2E2E" stroke-width="2"/>
+    </svg>
+  </div>
+</header>
+
+<!-- ============== VIDEO ============== -->
+<section class="section" <section class="section" id="video">
+  <h2 class="section-title">Смотреть фильм</h2>
+  <div class="video-wrap">
+    <video
+      controls
+      preload="metadata"
+      playsinline
+      width="100%">
+      <source src="8487921191655.mp4" type="video/mp4">
+      Ваш браузер не поддерживает встроенное видео. 
+      <a href="8487921191655.mp4">Скачать файл</a>.
+    </video>
+  </div>
+  <p class="caption">В фильме нет слов. Только два взгляда, которые меняют всё.</p>
+
+
+<!-- ============== SYNOPSIS ============== -->
+<section class="section section-alt" id="synopsis">
+  <h2 class="section-title">Синопсис</h2>
+  <div class="prose">
+    <p>Бездомный котёнок живёт в картонной коробке во дворе и давно усвоил одно правило: людям и другим животным доверять нельзя. Однажды во дворе появляется большой пёс с тяжёлой цепью и тяжёлым взглядом. Две осторожные души начинают путь навстречу друг другу — медленно, шаг за шагом, с оглядкой.</p>
+    <p>Это история без слов — только о том, как рождается доверие, когда его никто не ждал.</p>
+  </div>
+  <div class="callout">
+    <p><strong>О чём это на самом деле:</strong> о доверии, о праве на нежность и о том, что жестокость не делает тебя плохим.</p>
+  </div>
+</section>
+
+<!-- ============== CHARACTERS ============== -->
+<section class="section" id="characters">
+  <h2 class="section-title">Персонажи</h2>
+  <div class="cards">
+    
+    <!-- Карточка Котёнка -->
+    <article class="card">
+      <div class="card-art">
+        <img src="images/kitten.png" alt="Котёнок">
+      </div>
+      <h3>Котёнок</h3>
+      <p class="card-quote">«Маленький, но уже научившийся не верить».</p>
+      <p>Вдохновлён детством режиссёра — застенчивой и впечатлительной девочки, которой было трудно идти на контакт.</p>
+    </article>
+
+    <!-- Карточка Питбуля -->
+    <article class="card">
+      <div class="card-art">
+        <img src="images/pitbul.png" alt="Питбуль">
+      </div>
+      <h3>Питбуль</h3>
+      <p class="card-quote">«Большой, но ещё не знавший, что такое забота».</p>
+      <p>Его история — о том, что ярлык «бойцовская собака» не определяет, кто ты.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============== FRIENDSHIP TIMELINE ============== -->
+<section class="section section-alt" id="story">
+  <h2 class="section-title">История дружбы</h2>
+  <p class="section-lead">Нажмите на эпизод, чтобы увидеть кадр и заметку художника.</p>
+
+  <div class="timeline">
+    <button class="timeline-item" data-ep="0">
+      <span class="timeline-num">1</span>
+      <span class="timeline-label">Настороженность</span>
+    </button>
+    <button class="timeline-item" data-ep="1">
+      <span class="timeline-num">2</span>
+      <span class="timeline-label">Крышка от бутылки</span>
+    </button>
+    <button class="timeline-item" data-ep="2">
+      <span class="timeline-num">3</span>
+      <span class="timeline-label">Игра</span>
+    </button>
+    <button class="timeline-item" data-ep="3">
+      <span class="timeline-num">4</span>
+      <span class="timeline-label">Гроза</span>
+    </button>
+    <button class="timeline-item" data-ep="4">
+      <span class="timeline-num">5</span>
+      <span class="timeline-label">Спасение</span>
+    </button>
+    <button class="timeline-item" data-ep="5">
+      <span class="timeline-num">6</span>
+      <span class="timeline-label">Побег</span>
+    </button>
+  </div>
+
+  <div class="timeline-panel" id="timelinePanel">
+    <div class="timeline-frame" id="timelineFrame">—</div>
+    <div class="timeline-text">
+      <h3 id="timelineTitle">Выберите эпизод</h3>
+      <p id="timelineNote">Каждый эпизод — маленький шаг от страха к доверию.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== GALLERY ============== -->
+<section class="section" id="gallery">
+  <h2 class="section-title">Кадры и эскизы</h2>
+  <p class="section-lead">Каждый кадр сначала рисовали вручную, а потом обрабатывали цифрово.</p>
+  <div class="gallery" id="gallery">
+    <button class="gallery-item" data-frame="1">Эскиз · котёнок в коробке</button>
+    <button class="gallery-item" data-frame="2">Раскадровка · первый взгляд</button>
+    <button class="gallery-item" data-frame="3">Эскиз · крышка от бутылки</button>
+    <button class="gallery-item" data-frame="4">Раскадровка · гроза</button>
+    <button class="gallery-item" data-frame="5">Эскиз · побег</button>
+    <button class="gallery-item" data-frame="6">Финальный кадр</button>
+  </div>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section class="section section-alt" id="about">
+  <h2 class="section-title">О создании</h2>
+  <div class="prose">
+    <p><strong>Режиссёр и сценарист:</strong> Розана Салливан.<br>
+    <strong>Композитор:</strong> уточнить по титрам (Эндрю Хименес / Кенни Пикетт).<br>
+    <strong>Студия:</strong> Pixar Animation Studios, программа <em>SparkShorts</em> — экспериментальный проект, где авторам дают шесть месяцев и ограниченный бюджет.</p>
+    <p><strong>Как родилась идея:</strong> любовь режиссёра к видео с котятами + личный опыт застенчивости.</p>
+  </div>
+</section>
+
+<!-- ============== BEHIND THE SCENES ============== -->
+<section class="section" id="behind">
+  <h2 class="section-title">За кулисами</h2>
+  <div class="fact">
+    <p>🎨 Это один из немногих проектов Pixar, где 2D-стилистика имитирует традиционную рисованную анимацию.</p>
+  </div>
+  <div class="video-wrap">
+    <div class="video-placeholder">
+      <p>🎥 Здесь можно вставить видео о процессе создания с канала Pixar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== AWARDS ============== -->
+<section class="section section-alt" id="awards">
+  <h2 class="section-title">Награды и фестивали</h2>
+  <ul class="awards">
+    <li>🏆 Номинация на «Оскар» (2020) — лучший анимационный короткометражный фильм.</li>
+    <li>🎬 Премьера в кинотеатре «Эль-Капитан» — 18 января 2019 года.</li>
+    <li>🌍 Открытый онлайн-релиз — февраль 2019-го, после которого «весь мир плакал».</li>
+  </ul>
+</section>
+
+<!-- ============== PRESS KIT ============== -->
+<section class="section" id="press">
+  <h2 class="section-title">Пресс-кит</h2>
+  <div class="press-grid">
+    <div class="press-item">
+      <h3>Скачать</h3>
+      <p>Постеры, кадры, логотип, синопсис, био режиссёра.</p>
+      <a href="#" class="btn btn-primary" onclick="alert('Замените эту ссылку на реальный файл пресс-кита'); return false;">Скачать пресс-кит</a>
+    </div>
+    <div class="press-item">
+      <h3>Технические данные</h3>
+      <p>9 минут · США · 2019 · без диалогов · 2D-стилистика.</p>
+    </div>
+    <div class="press-item">
+      <h3>Контакты пресс-службы</h3>
+      <p>Pixar / SparkShorts — официальная пресс-страница.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== HOME EXISTS ============== -->
+<section class="section section-warm" id="home">
+  <h2 class="section-title">Дом существует</h2>
+  <p class="prose">Если вы встретили животное, которому нужна помощь, — это может быть начало чьей-то истории дружбы. Проверьте местные организации помощи животным.</p>
+  <p class="disclaimer">Фильм художественный, но жестокое обращение с животными — реальная проблема.</p>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer" id="contacts">
+  <h2 class="footer-title">Контакты</h2>
+  <p>Пресс-контакт студии · официальные страницы Pixar / Disney+.</p>
+  <p class="small">© 2019 Pixar Animation Studios · сайт-фанатский промо-проект</p>
+  <p class="small"><a href="#top">Наверх ↑</a></p>
+</footer>
+
+<!-- ============== LIGHTBOX ============== -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+  <div class="lightbox-content" id="lightboxContent">—</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
